@@ -60,7 +60,6 @@
 
     <!--begin::Required Plugin(AdminLTE)-->
     <link rel="stylesheet" href="./css/adminlte.css" />
-    <link rel="stylesheet" href="styles.css">
     <!--end::Required Plugin(AdminLTE)-->
 
     <!-- apexcharts -->
@@ -85,12 +84,11 @@
     <!--begin::App Wrapper-->
     <div class="app-wrapper">
       <!--begin::Header-->
-      <header>
       <nav class="app-header navbar navbar-expand bg-body">
         <!--begin::Container-->
         <div class="container-fluid">
           <!--begin::Start Navbar Links-->
-          <ul class="navbar-nav menu-flex">
+          <ul class="navbar-nav">
             <li class="nav-item">
               <a class="nav-link" data-lte-toggle="sidebar" href="#" role="button">
                 <i class="bi bi-list"></i>
@@ -352,8 +350,8 @@
                 <!--end::Menu Body-->
                 <!--begin::Menu Footer-->
                 <li class="user-footer">
-                  <a href="#" class="btn btn-outline-secondary boton-personalizado">Profile</a>
-                  <a href="#" class="btn btn-outline-danger float-end boton-personalizado">Sign out</a>
+                  <a href="#" class="btn btn-outline-secondary">Profile</a>
+                  <a href="#" class="btn btn-outline-danger float-end">Sign out</a>
                 </li>
                 <!--end::Menu Footer-->
               </ul>
@@ -364,7 +362,6 @@
         </div>
         <!--end::Container-->
       </nav>
-      </header>
       <!--end::Header-->
       <!--begin::Sidebar-->
       <aside class="app-sidebar bg-body-secondary shadow" data-bs-theme="dark">
@@ -964,7 +961,7 @@
                   <div class="inner">
                     <h3>150</h3>
 
-                    <p>Nuevos pedidos</p>
+                    <p>New Orders</p>
                   </div>
                   <svg
                     class="small-box-icon"
@@ -993,7 +990,7 @@
                   <div class="inner">
                     <h3>53<sup class="fs-5">%</sup></h3>
 
-                    <p>Tasa de Rebote</p>
+                    <p>Bounce Rate</p>
                   </div>
                   <svg
                     class="small-box-icon"
@@ -1022,7 +1019,7 @@
                   <div class="inner">
                     <h3>44</h3>
 
-                    <p>Usuarios Registrados</p>
+                    <p>User Registrations</p>
                   </div>
                   <svg
                     class="small-box-icon"
@@ -1051,7 +1048,7 @@
                   <div class="inner">
                     <h3>65</h3>
 
-                    <p>Visitantes Únicos</p>
+                    <p>Unique Visitors</p>
                   </div>
                   <svg
                     class="small-box-icon"
@@ -1087,12 +1084,12 @@
             <div class="row">
               <!-- Start col -->
               <div class="col-lg-7 connectedSortable">
-                <div class="card mb-4 tarjeta-personalizada">
-                  <div class="card-header tarjeta-personalizada">
-                    <h3 class="card-title tarjeta-personalizada">Sales Value</h3>
+                <div class="card mb-4">
+                  <div class="card-header">
+                    <h3 class="card-title">Sales Value</h3>
                   </div>
 
-                  <div class="card-body tarjeta-personalizada">
+                  <div class="card-body">
                     <div id="revenue-chart"></div>
                   </div>
                 </div>
@@ -1100,10 +1097,10 @@
 
                 <!-- DIRECT CHAT -->
                 <div class="card direct-chat direct-chat-primary mb-4">
-                  <div class="card-header tarjeta-personalizada">
-                    <h3 class="card-title tarjeta-personalizada">Direct Chat</h3>
+                  <div class="card-header">
+                    <h3 class="card-title">Direct Chat</h3>
 
-                    <div class="card-tools tarjeta-personalizada">
+                    <div class="card-tools">
                       <span title="3 New Messages" class="badge text-bg-primary"> 3 </span>
                       <button type="button" class="btn btn-tool" data-lte-toggle="card-collapse">
                         <i data-lte-icon="expand" class="bi bi-plus-lg"></i>
@@ -1111,13 +1108,13 @@
                       </button>
                       <button
                         type="button"
-                        class="btn btn-tool boton-personalizado"
+                        class="btn btn-tool"
                         title="Contacts"
                         data-lte-toggle="chat-pane"
                       >
                         <i class="bi bi-chat-text-fill"></i>
                       </button>
-                      <button type="button" class="btn btn-tool boton-personalizado" data-lte-toggle="card-remove">
+                      <button type="button" class="btn btn-tool" data-lte-toggle="card-remove">
                         <i class="bi bi-x-lg"></i>
                       </button>
                     </div>
@@ -1327,7 +1324,7 @@
                     <!-- /.direct-chat-pane -->
                   </div>
                   <!-- /.card-body -->
-                  <div class="card-footer tarjeta-personalizada">
+                  <div class="card-footer">
                     <form action="#" method="post">
                       <div class="input-group">
                         <input
@@ -1364,7 +1361,7 @@
                       </button>
                     </div>
                   </div>
-                  <div class="card-body tarjeta-personalizada">
+                  <div class="card-body">
                     <div id="world-map" style="height: 220px"></div>
                   </div>
                   <div class="card-footer border-0">
