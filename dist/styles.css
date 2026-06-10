@@ -24,38 +24,3 @@ body{
         gap:1.5rem;
     }
 }
-.boton-personalizado{
-    background:var(--color-principal);
-    color:white;
-    padding:0.75rem 1rem;
-    border:none;
-    border-radius:var(--radio);
-    text-decoration:none;
-}
-
-.tarjeta-personalizada{
-    padding:var(--espaciado);
-    border-radius:var(--radio);
-    background:white;
-}
-
-.contenedor-personalizado{
-    padding:var(--espaciado);
-}
-
-.navegacion-personalizada{
-    display:flex;
-    gap:1rem;
-}
-
-.grid-demo{
-    display:grid;
-    grid-template-columns:1fr;
-    gap:1rem;
-}
-
-@media (min-width:768px){
-    .grid-demo{
-        grid-template-columns:repeat(3,1fr);
-    }
-}
