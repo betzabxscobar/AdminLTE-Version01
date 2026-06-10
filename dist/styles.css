@@ -1,0 +1,28 @@
+:root{
+    --color-principal:#0d6efd;
+    --color-secundario:#f8f9fa;
+    --texto:#212529;
+    --espaciado:1rem;
+    --radio:10px;
+}
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+}
+
+.menu-flex{
+    display:flex;
+    gap:1rem;
+}
+
+@media (min-width:768px){
+    .galeria-grid{
+        grid-template-columns:repeat(3,1fr);
+    }
+}
